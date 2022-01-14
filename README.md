@@ -1,0 +1,2 @@
+# tspt
+TypeScript project template.
