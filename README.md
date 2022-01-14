@@ -1,2 +1,3 @@
 # tspt
-TypeScript project template.
+
+Simple TypeScript project template.
