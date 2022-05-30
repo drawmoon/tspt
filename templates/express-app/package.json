@@ -2,11 +2,10 @@
   "name": "tspt",
   "version": "1.0.0",
   "description": "Simple TypeScript project template.",
-  "main": "src/main.ts",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc",
-    "run": "node dist/main",
+    "build": "tsc --build ./tsconfig.build.json",
+    "start": "node dist/main",
     "lint": "eslint . --ext .ts",
     "test": "jest"
   },
