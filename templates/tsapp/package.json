@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Simple TypeScript project template.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc --build ./tsconfig.build.json",

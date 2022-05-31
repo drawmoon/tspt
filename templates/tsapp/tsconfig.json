@@ -22,6 +22,7 @@
     "inlineSourceMap": true,
     "importHelpers": true,
     "rootDir": "./src",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "declaration": true
   }
 }
