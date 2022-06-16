@@ -12,7 +12,8 @@
     "build": "tsc --build ./tsconfig.build.json",
     "lint": "eslint . --ext .ts",
     "test": "jest",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -31,10 +32,13 @@
   },
   "homepage": "https://github.com/drawmoon/tspt#readme",
   "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
     "@types/jest": "^27.5.1",
     "@typescript-eslint/eslint-plugin": "^5.9.1",
     "@typescript-eslint/parser": "^5.9.1",
     "eslint": "^8.6.0",
+    "husky": "^8.0.1",
     "jest": "^28.1.0",
     "rimraf": "^3.0.2",
     "standard-version": "^9.5.0",
